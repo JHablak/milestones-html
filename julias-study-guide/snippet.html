@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anatomy of an HTML tag</title>
+</head>
+<body>
+  <h1>Anatomy of an HTML tag</h1>
+  <p>Let's take a look at the following snippet of code:<br>
+  <img src="snippet4.jpg" alt="snippet">
+  <ul>
+    <li>In the snippet above, there are 2 tags used: p and a.</li>
+    <li>"p" denotes a paragraph and contains plain text. The browser automatically displays a space before and after the paragraph. It is also important to remember that any extra spaces and lines in a paragraph will not be displayed.</li>
+    <li>"a" denotes a link element. Since it is contained within the "p" tag, we say that a is the child of p. This relationship is useful in structuring information (look up the <a href="http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html#:~:text=Each%20HTML%20document%20can%20actually,selectors%20use%20the%20document%20tree.">document tree.</a>)</li>
+    <li>Re: opening and closing tags - "p" is at the start of the content while "/p" is at the end. The first instance of "p" is an opening tag, and it appears at the start of the content. "/p" is a closing tag and appears at the end. If you don't include both tags, the computer won't be able to read your code and the text won't show up, so make sure to include them! All tags except "br" and "hr" have an open tag and a close tag. "a" has one as well, and it contains the text that the user clicks on to be redirected to the linked location.
+    <li>Attributes: href, id, and class (contained within the <> of the opening tag for "a") are called attributes. href is used to connect the link. id and class are labels that we will need when we are writing css and want to target a specific section of text. They are specifiers. For now, it is important to know that id is more specific than class. There is another attribute, target, and target="_blank" will tell the link to open in a new tab.</li>
+  </ul>
+  <p>Here are some helpful resources that help explain html tags in more detail:<br>
+    <ul>
+      <li><a href="https://www.w3schools.com/tags/ref_byfunc.asp">w3schools.com</a> W3Schools contains lots of helpful coding information on a variety of topics!</li>
+      <li><a href="http://www.dontfeartheinternet.com/04-from-scratch/">dontfeartheinternet.com</a> This video series is helpful for making a website from scratch, but video 4 goes into more detail about html tags.</li>
+    </ul>
+  </p>
+
+</body>
+</html>
