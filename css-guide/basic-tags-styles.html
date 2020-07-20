@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    h1#page-title {text-align: center; letter-spacing: 4px; color: rgb(4, 50, 68); background-color: aliceblue; margin: 0px; padding: 5px;}
+    h2.header {letter-spacing: 2px; font-weight: 200; text-align: center; margin-bottom: 50px; margin-top: 30px; color: royalblue;}
+    a {color: black;}
+    a:hover {color: royalblue;}
+    .main-section1 {border: lightseagreen 2px solid; padding: 10px; margin: 5px;}
+    .main-section2 {border: seagreen 2px solid; padding: 10px; margin: 5px;}
+    table {padding-bottom: 25px;}
+    ul#toc {list-style: none;}
+    ul.subsections-toc {list-style: none;}
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Tags</title>
+</head>
+<body>
+  <h1 id="page-title">Basic Tags</h1>
+  <hr class="divider">
+  <p id="toc-header">On this page we will talk about:</p>
+  <ul id="toc">
+    <li>Block-level text containers</li>
+    <ul class="subsections-toc">
+      <li><code>p</code> tag</li>
+      <li><code>blockquote</code> tag</li>
+      <li><code>pre</code> tag</li>
+    </ul>
+    <li>Inline text styling</li>
+    <ul class="subsections-toc">
+      <li><code>em</code> and <code>i</code></li>
+      <li><code>strong</code> and <code>b</code></li>
+      <li><code>code</code></li>
+    </ul>
+    <li>The <code>a</code> tag</li>
+    <li>The <code>img</code> tag</li>
+    <li>The different heading tags <code>h1</code>, <code>h2</code>, etc.</li>
+    <li>Ordered and unordered lists (<code>ol</code>, <code>ul</code>, and <code>li</code>)</li>
+    <li>HTML Tables</li>
+  </ul>
+  <hr class="divider">
+  <div>
+    <div class="main-section1">
+      <h2 class="header">Block-level text containers</h2>
+      <p>Block-level elements appear on the screen as if they have a line break before and after them. They all start on their own new line. (Source: <a href="https://www.tutorialspoint.com/html/html_blocks.htm#:~:text=For%20example%2C%20the,are%20all%20block%20level%20elements.">www.tutorialspoint.com/html</a>)</p>
+      <ul>
+        <li><h3>"p"</h3></li>
+        <p>The <code>p</code> element identifies blocks of text. Although the closing tag technically isn't necessary, it's good practice to use it. An important detail is that content in the <code>p</code> tag will not indent or include line breaks! It will come out as strings of sentences. Formatting paragraphs will be addressed with CSS, which we will talk about later. </p>
+        <li><h3>"blockquote"</h3></li>
+        <p>The <code>blockquote</code> element is used for quotations (i.e. quotations that are longer than one line. Browsers generally show block quotes as indented text.</p>
+        <li><h3>"pre"</h3></li>
+        <p>The <code>pre</code> element displays as much space as specified. It tells the browser to preserve both spaces and line breaks. </p>
+      </ul>
+    </div>
+    <div class="main-section2">
+      <h2 class="header">Inline text styling</h2>
+      <p>Inline elements can appear within sentences and do not have to appear on a new line of their own. (Source: <a href="https://www.tutorialspoint.com/html/html_blocks.htm#:~:text=For%20example%2C%20the,are%20all%20block%20level%20elements.">www.tutorialspoint.com/html</a>)</p>
+      <ul>
+        <li><h3>"em" and "i"</h3></li>
+        <p><code>i</code> is used for text in an "alternate voice" (e.g. foreign words, technical terms, etc.) and <code>em</code> is used to put stress/emphasis on a word.</p>
+        <li><h3>"strong" and "b"</h3></li>
+        <p><code>b</code> is used to stylistically offset words, e.g. keywords/definitions, roles in a play, etc. <code>strong</code> is used to represent contents' strong importance.</p>
+        <li><h3>"code"</h3></li>
+        <p>The <code>code</code> element displays content in a style that indicated the text is a short fragment of computer code. Basically, it turns "code" into <code>code</code> if you want to indicate that it is computer code.</p>
+      </ul>
+    </div>
+    <div class="main-section1">
+      <h2 class="header">The "a" tag</h2>
+      <p>The <code>a</code> element creates a hyperlink to web pages, files, email adresses, locations in the same page, or anything else a url can address. The attribute <code>href</code> is used to specify the link's destination.</p>
+    </div>
+    <div class="main-section2">
+      <h2 class="header">The "img" tag</h2>
+      <p>The <code>img</code> element is used to embed an image in an HTML page. The attribute <code>src</code> is used to specify the path to the image (i.e. how to browser knowns what image to display) and the attribute <code>alt</code> specifies an alternative text for the image if, for some reason, it can't be displayed. The <code>alt</code> attribute is necessary for you website to be verified, so include it! You can also specify the height and width of the image using the attributes <code>height</code> and <code>width</code>.</p>
+    </div>
+    <div class="main-section1">
+      <h2 class="header">Heading tags (h1-h6)</h2>
+      <p><code>h1</code> specifies the most important heading and is used at the top of your page. It is important to use headings in your document to give it structure. Notice how the headings in this page help you organize information faster.</p>
+    </div>
+    <div class="main-section2">
+      <h2 class="header">Ordered and unordered lists</h2>
+      <p>The <code>ul</code> element denotes and unorder list. The browser automatically indents this text. Within the parent element <code>ul</code>, use the element <code>li</code> to denote bulleted items.</p>
+      <p>The <code>ol</code> element is similar, except it numbers list items instead of bulleting them.</p>
+    </div>
+    <div class="main-section1">
+      <h2 class="header">Tables</h2>
+      <div>
+        <table style= "width:70%">
+          <tr>
+            <th>Block-level text containers</th>
+            <td><code>p</code></td>
+            <td><code>blockquote</code></td>
+            <td><code>pre</code></td>
+          <tr>
+            <th>Inline text styling</th>
+            <td><code>em</code> and <code>i</code></td>
+            <td><code>strong</code> and <code>b</code></td>
+            <td><code>code</code></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+</div>
+
+  <br>
+  <br>
+
+</body>
+</html>
