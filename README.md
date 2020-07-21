@@ -1,3 +1,15 @@
+Julia's Study guide
+
+URLs:
+http://juliastudyguide.surge.sh/
+http://juliastudyguide.surge.sh/basic-tags.html
+http://juliastudyguide.surge.sh/multimedia.html
+http://juliastudyguide.surge.sh/snippet.html
+http://juliastudyguide.surge.sh/structure.html
+http://juliastudyguide.surge.sh/css/basic-css.html
+http://juliastudyguide.surge.sh/css/basic-tags-styles.html
+
+
 # HTML and CSS Milestones
 
 Below is a list of tasks. By the start of next week, everyone should...
